@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot name="ros_tda_miku" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find common)/launch/parameter.launch"/>
+    <xacro:include filename="$(find miku_rviz)/robot/config.xacro"/>
+
+    <link name="tda_miku_root">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </link>
+
+    <joint name="virtual_joint2tda_miku" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="tda_miku_root"/>
+        <child link="tda_miku"/>
+    </joint>
+
+    <link name="tda_miku">
+        <visual>
+            <origin rpy="${90*DEG2RAD} 0 ${90*DEG2RAD}" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="${robotPackagePath}/${modelDataResourseFolder}/${modelDataFileName}"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
