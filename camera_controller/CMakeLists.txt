@@ -11,11 +11,21 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf
   tf2
+  rviz
+  roscpp
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
+# Qt
+find_package(Qt4 COMPONENTS QtCore QtGui REQUIRED)
+include(${QT_USE_FILE})
+add_definitions(-DQT_NO_KEYWORDS -fPIC)
+
+# Ogre
+find_package(PkgConfig)
+pkg_check_modules(OGRE OGRE)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -83,9 +93,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES camera_controller
-#  CATKIN_DEPENDS geometry_msgs rospy sensor_msgs std_msgs tf tf2
+ INCLUDE_DIRS include
+ LIBRARIES camera_controller
+ CATKIN_DEPENDS geometry_msgs rospy sensor_msgs std_msgs tf tf2 rviz roscpp
 #  DEPENDS system_lib
 )
 
@@ -98,12 +108,18 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${OGRE_INCLUDE_DIRS}
+)
+# run Qt moc generator
+qt4_wrap_cpp(MOC_FILES
+#  include/tf_fps_view/tf_fps_view.h
 )
 
 ## Declare a cpp library
-# add_library(camera_controller
-#   src/${PROJECT_NAME}/camera_controller.cpp
-# )
+add_library(camera_controller
+#  src/tf_fps_view/tf_fps_view.cpp
+  ${MOC_FILES}
+)
 
 ## Declare a cpp executable
 # add_executable(camera_controller_node src/camera_controller_node.cpp)
@@ -113,9 +129,10 @@ include_directories(
 # add_dependencies(camera_controller_node camera_controller_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(camera_controller_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(camera_controller
+  ${catkin_LIBRARIES}
+  ${QT_LIBRARIES}
+)
 
 #############
 ## Install ##
@@ -132,25 +149,31 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS camera_controller camera_controller_node
-#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+install(TARGETS camera_controller
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark cpp header files for installation
-# install(DIRECTORY include/${PROJECT_NAME}/
-#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-#   FILES_MATCHING PATTERN "*.h"
+install(DIRECTORY include/tf_fps_view/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
 #   PATTERN ".svn" EXCLUDE
-# )
+)
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
-# install(FILES
+install(FILES
+  plugin_description.xml
 #   # myfile1
 #   # myfile2
-#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-# )
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(DIRECTORY
+  icons
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
 
 #############
 ## Testing ##
