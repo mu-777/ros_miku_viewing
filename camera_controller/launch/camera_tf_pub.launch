@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="camera_focus_point_frame_id" default="camera_focusing_point"/>
+    <arg name="camera_frame_id" default="camera_tf"/>
+    <arg name="android_imu_topic" default="android/phone_imu"/>
+    <arg name="camera_target_distance" default="10.0"/>
+
+
+    <param name="camera_focus_point_frame_id" type="str" value="$(arg camera_focus_point_frame_id)"/>
+    <param name="camera_frame_id" type="str" value="$(arg camera_frame_id)"/>
+    <param name="android_imu_topic" type="str" value="$(arg android_imu_topic)"/>
+    <param name="camera_target_distance" type="double" value="$(arg camera_target_distance)"/>
+
+    <node name="camera_tf_publisher" pkg="camera_controller" type="camera_tf_publisher.py" output="screen"/>
+
+</launch>

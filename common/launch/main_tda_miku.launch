@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="miku_height" value="15.0"/>
+    <arg name="miku_height_center" value="10.0"/>
+    <arg name="miku_root_frame_id" value="tda_miku_root"/>
+    <arg name="camera_focus_point_frame_id" value="camera_focusing_point"/>
+    <arg name="camera_frame_id" value="camera_tf"/>
+    <arg name="android_imu_topic" value="android/phone_imu"/>
+    <arg name="camera_target_distance" value="12.0"/>
+
+
+
+    <!--======================================-->
+    <include file="$(find miku_rviz)/launch/tda_miku.launch"/>
+    <!--<node name="camera_tf_publisher" pkg="camera_controller" type="camera_tf_publisher.py" output="screen"/>-->
+    <node pkg="tf" type="static_transform_publisher" name="focus_point"
+          args="0.0 0.0 $(arg miku_height_center) 0.0 0.0 0.0 1.0 $(arg miku_root_frame_id) $(arg camera_focus_point_frame_id) 100"
+          output="screen"/>
+
+    <include file="$(find camera_controller)/launch/camera_tf_pub.launch">
+        <arg name="camera_focus_point_frame_id" value="$(arg camera_focus_point_frame_id)"/>
+        <arg name="camera_frame_id" value="$(arg camera_frame_id)"/>
+        <arg name="android_imu_topic" value="$(arg android_imu_topic)"/>
+        <arg name="camera_target_distance" value="$(arg camera_target_distance)"/>
+    </include>
+
+
+</launch>
