@@ -3,7 +3,7 @@
 
     <!--miku_rviz-->
     <property name="robotPackagePath" value="package://miku_rviz/robot"/>
-    <property name="modelDataResourseFolder" value="tda_miku_dae"/>
+    <property name="modelDataResourseFolder" value="mmd_dae"/>
     <property name="modelDataFileName" value="Tda-style_miku.dae"/>
 
 
