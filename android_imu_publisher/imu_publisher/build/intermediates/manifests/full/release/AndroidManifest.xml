@@ -8,11 +8,23 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="15" />
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="com.three_seven.mu.imu_publisher.ImuPublisher"
+            android:name="com.three_seven.mu.imu_publisher.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +32,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="org.ros.android.MasterChooser"
+            android:label="@string/app_name"
+            android:launchMode="standard" />
+
+        <service android:name="org.ros.android.NodeMainExecutorService" >
+            <intent-filter>
+                <action android:name="org.ros.android.NodeMainExecutorService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

@@ -9,20 +9,6 @@
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-02a30a85d071b28e5bb12d330172fc5dfc2c1a35.jar" />
     </item>
     <item
-        jar="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.2.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="97c5fd6c09e5ff40097a4dce15ea7ffca362e6b6">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/classes-c9f930717aef6d6fb54dd9583a0a8e0b93e8641a.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/sensor_msgs/1.11.8/sensor_msgs-1.11.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="383bbbb350731aec2f0f92b72a9e96e81139859a">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/sensor_msgs-1.11.8-e249aa13b919cf08e31dcccfed03a395bd392ab9.jar" />
-    </item>
-    <item
         jar="/opt/ros/indigo/share/maven/org/ros/rosjava_core/apache_xmlrpc_server/0.2.1/apache_xmlrpc_server-0.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -65,13 +51,6 @@
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-0524807457ecba5b564d8f4b51f3b944f6301aec.jar" />
     </item>
     <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/rosgraph_msgs/1.11.1/rosgraph_msgs-1.11.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="edbeec1686eb39510487a705ea7d42933c09c018">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.11.1-102a43faf9239eba7bc0d4da46cd8f62b5151902.jar" />
-    </item>
-    <item
         jar="/opt/ros/indigo/share/maven/org/ros/rosjava_core/apache_xmlrpc_common/0.2.1/apache_xmlrpc_common-0.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -84,6 +63,97 @@
         revision="21.1.2"
         sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-b7fd742fab57c81bc6f6e96f277f9b36e494019c.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/geometry_msgs/1.11.8/geometry_msgs-1.11.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6f1ad9a791a041a2c9239bb2db15dd24f8163d8">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/geometry_msgs-1.11.8-b955ba05c5c68a6e3ab02bec66ffa77cf576412c.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/visualization_msgs/1.11.8/visualization_msgs-1.11.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f1b1ec541805ee0a77f5dd2da96bcc7e5b952046">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/visualization_msgs-1.11.8-5c5ec4815d99645e6d6588e48c8fa6b735e97cc2.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/nav_msgs/1.11.8/nav_msgs-1.11.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d72d509d7407bc73e84c5f95aa3aec16aabaa4b1">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/nav_msgs-1.11.8-de9265c2a5087438ec7ef4e14650c9bfc901a0a4.jar" />
+    </item>
+    <item
+        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-9607ed49e18d2df47fef914ac470fcbc9d8ec307.jar" />
+    </item>
+    <item
+        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-c92b3aa1b466be7a0fb7b04020ffcdcc302787ff.jar" />
+    </item>
+    <item
+        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-5c0bad8f2b36650183fac42033c52962dcd8cd7a.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/diagnostic_msgs/1.11.8/diagnostic_msgs-1.11.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="82942b07b2db00242b1ce617172f06af076f9c14">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/diagnostic_msgs-1.11.8-68a23d714b0ba367244f6e2115ddd77de4d75a5f.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/tf2_msgs/0.5.11/tf2_msgs-0.5.11.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1118ec97a5f0399c482d640375aedd4606a857d1">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.11-3a4b41539c59b6d529d03c1df2564613b3ddf64f.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_core/rosjava/0.2.1/rosjava-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b37e5d8b78075c8a7e0bf55ac88e4caf6a6075f">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/rosjava-0.2.1-139757dca4420b88958c253eaa34d137c1a26f40.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/std_msgs/0.5.9/std_msgs-0.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6755840a3473cb30ae2b9c5d8db041a48ae1af93">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/std_msgs-0.5.9-eabb27de588bfce3d5b8133b1b43ef89991637bc.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/sensor_msgs/1.11.8/sensor_msgs-1.11.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="383bbbb350731aec2f0f92b72a9e96e81139859a">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/sensor_msgs-1.11.8-e249aa13b919cf08e31dcccfed03a395bd392ab9.jar" />
+    </item>
+    <item
+        jar="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97c5fd6c09e5ff40097a4dce15ea7ffca362e6b6">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/classes-c9f930717aef6d6fb54dd9583a0a8e0b93e8641a.jar" />
+    </item>
+    <item
+        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/rosgraph_msgs/1.11.1/rosgraph_msgs-1.11.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="edbeec1686eb39510487a705ea7d42933c09c018">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.11.1-102a43faf9239eba7bc0d4da46cd8f62b5151902.jar" />
     </item>
     <item
         jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/rosjava_test_msgs/0.2.1/rosjava_test_msgs-0.2.1.jar"
@@ -107,20 +177,6 @@
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-332de6f57ed2e2a5e338569ac5c3cbdd2b9fb8f3.jar" />
     </item>
     <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/geometry_msgs/1.11.8/geometry_msgs-1.11.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a6f1ad9a791a041a2c9239bb2db15dd24f8163d8">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/geometry_msgs-1.11.8-b955ba05c5c68a6e3ab02bec66ffa77cf576412c.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/visualization_msgs/1.11.8/visualization_msgs-1.11.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f1b1ec541805ee0a77f5dd2da96bcc7e5b952046">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/visualization_msgs-1.11.8-5c5ec4815d99645e6d6588e48c8fa6b735e97cc2.jar" />
-    </item>
-    <item
         jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/7657caf2c78e1d79c74d36f2ae128a115f7cc180/com.springsource.org.apache.commons.logging-1.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -140,48 +196,6 @@
         revision="21.1.2"
         sha1="31bac54a705c9ab2f1b8943f6fa2ea1491f4cb57">
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/actionlib_msgs-1.11.8-b6c79f0a5049ceba3686f115fdbd262a85d2b997.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/nav_msgs/1.11.8/nav_msgs-1.11.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d72d509d7407bc73e84c5f95aa3aec16aabaa4b1">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/nav_msgs-1.11.8-de9265c2a5087438ec7ef4e14650c9bfc901a0a4.jar" />
-    </item>
-    <item
-        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-9607ed49e18d2df47fef914ac470fcbc9d8ec307.jar" />
-    </item>
-    <item
-        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-5c0bad8f2b36650183fac42033c52962dcd8cd7a.jar" />
-    </item>
-    <item
-        jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-c92b3aa1b466be7a0fb7b04020ffcdcc302787ff.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/diagnostic_msgs/1.11.8/diagnostic_msgs-1.11.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="82942b07b2db00242b1ce617172f06af076f9c14">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/diagnostic_msgs-1.11.8-68a23d714b0ba367244f6e2115ddd77de4d75a5f.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/tf2_msgs/0.5.11/tf2_msgs-0.5.11.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1118ec97a5f0399c482d640375aedd4606a857d1">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.11-3a4b41539c59b6d529d03c1df2564613b3ddf64f.jar" />
     </item>
     <item
         jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
@@ -212,13 +226,6 @@
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-967063d9fb3a15dc6ec6611bd6b6f885815b12e4.jar" />
     </item>
     <item
-        jar="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/classes-94240e2a748a24b06b24fc2d2ab0b2949ecf011e.jar" />
-    </item>
-    <item
         jar="/opt/ros/indigo/share/maven/org/ros/rosjava_bootstrap/message_generation/0.2.1/message_generation-0.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -226,25 +233,18 @@
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/message_generation-0.2.1-2fba721c439e2b4d341c253db8ea70791bb6d064.jar" />
     </item>
     <item
+        jar="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/classes-94240e2a748a24b06b24fc2d2ab0b2949ecf011e.jar" />
+    </item>
+    <item
         jar="/home/ryosuke/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
         <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/guava-12.0-40a714e738140cd135741d8018acbbbba5f7ee50.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_core/rosjava/0.2.1/rosjava-0.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1b37e5d8b78075c8a7e0bf55ac88e4caf6a6075f">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/rosjava-0.2.1-139757dca4420b88958c253eaa34d137c1a26f40.jar" />
-    </item>
-    <item
-        jar="/opt/ros/indigo/share/maven/org/ros/rosjava_messages/std_msgs/0.5.9/std_msgs-0.5.9.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6755840a3473cb30ae2b9c5d8db041a48ae1af93">
-        <dex dex="/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/build/intermediates/pre-dexed/debug/std_msgs-0.5.9-eabb27de588bfce3d5b8133b1b43ef89991637bc.jar" />
     </item>
 
 </items>
