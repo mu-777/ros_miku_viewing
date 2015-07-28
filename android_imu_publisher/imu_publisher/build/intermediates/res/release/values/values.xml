@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ryosuke/ros/miku_viewer/src/android_imu_publisher/imu_publisher/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ImuPublisher</string>
+</resources>
