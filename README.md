@@ -2,8 +2,8 @@
 
 ## Overview  
 
-
-## Prepare
+## How to use
+### Prepare
 1. Install ROS  
 This package is confirmed to work in indigo (however it should works on other distributions)
 
@@ -27,7 +27,7 @@ Change ``<property name="modelDataFileName" value="Tda-style_miku.dae"/>`` @ ``c
 1. Install Android apps  
 Install the app using ``android_imu_publisher/imu_publisher/imu_publisher-release.apk``
 
-## Run
+### Run
 1. Connect your phone and PC to the same network  
 You can use your phone's tethering. In this case, you should disconnect mobile network(e.g. 4G, LTE or something)
 
