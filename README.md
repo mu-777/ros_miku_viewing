@@ -1,7 +1,7 @@
 # ros_miku_viewing
 
 ## Overview  
-See https://youtu.be/lXIcyivqUMI
+[![](http://img.youtube.com/vi/lXIcyivqUMI/0.jpg)](https://www.youtube.com/watch?v=lXIcyivqUMI)
 
 ## How to use
 ### Prepare
