@@ -43,7 +43,7 @@ You can use your phone's tethering. In this case, you should disconnect mobile n
     $ export ROS_IP=<your PC IP address>
     $ cd ~/catkin_ws
     $ source devel/setup.bash
-    $ roslaunch roslaunch common main_tda_miku.launch
+    $ roslaunch common main_tda_miku.launch
     ```
 
 1. Run Android app  
